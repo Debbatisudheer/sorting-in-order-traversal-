@@ -62,6 +62,15 @@ function displayIPhones(sortedIPhones) {
         iphoneInfo.innerHTML += "</p>";
         iphoneInfo.innerHTML += "<p>Reviews: " + iphone.reviews + "</p>";
 
+           // Create Buy Now button
+        var buyButton = document.createElement("button");
+        buyButton.textContent = "Buy Now";
+        buyButton.classList.add("buy-button"); // Add a class to style the button
+        buyButton.addEventListener("click", function() {
+            alert("Thank you for your purchase! VISIT AGAIN"); // Display a message when the button is clicked
+        });
+        iphoneInfo.appendChild(buyButton);
+
         iphoneListDiv.appendChild(iphoneInfo);
     });
 }
