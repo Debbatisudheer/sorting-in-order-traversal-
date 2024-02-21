@@ -10,6 +10,13 @@
     width: 100px; /* Set the width of the image */
     height: 100px; /* Set the height of the image */
 }
+/* Styles for the scroll down SVG */
+.scroll {
+    position: absolute; /* Position the scroll icon absolutely */
+    right: 20px; /* Adjust the right spacing as needed */
+    bottom: 20px; /* Adjust the bottom spacing as needed */
+    cursor: pointer; /* Add pointer cursor on hover */
+}
 
 /* Styles for smaller screens (mobile devices) */
 @media screen and (max-width: 600px) {
