@@ -20,6 +20,23 @@
     <div id="iphoneList">
         <!-- iPhone list will be displayed here -->
     </div>
+    <div id="processDescription">
+        <h2>Process Description:</h2>
+        <p>We start by inserting each product into the binary search tree.</p>
+        <ul>
+            <li>If the tree is empty, the product becomes the root node.</li>
+            <li>If the tree is not empty, we compare the price of the product with the price of the current node.</li>
+            <li>If the price is less than the current node's price, we move to the left subtree.</li>
+            <li>If the price is greater than or equal to the current node's price, we move to the right subtree.</li>
+            <li>We repeat this process until we find an appropriate spot to insert the product.</li>
+        </ul>
+        <p>After inserting all products into the binary search tree, we perform an in-order traversal.</p>
+        <p>Starting from the leftmost node, we visit each node in the following order: left subtree, current node, right subtree.</p>
+        <p>At each node, we add the corresponding product to our sorted product catalog.</p>
+        <p>We continue this process until we have visited all nodes in the tree.</p>
+        <p>By performing the in-order traversal, we ensure that products are visited and added to the catalog in ascending order based on their prices.</p>
+        <p>As a result, the sorted product catalog is constructed as we traverse the binary search tree.</p>
+    </div>
 
     <script src="script.js"></script>
 </body>
