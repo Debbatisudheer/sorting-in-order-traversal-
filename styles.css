@@ -1,0 +1,20 @@
+/* CSS for styling */
+.stars {
+    color: green; /* Set the color of the stars */
+}
+
+/* CSS for styling */
+
+/* Styles for larger screens */
+.iphone img {
+    width: 100px; /* Set the width of the image */
+    height: 100px; /* Set the height of the image */
+}
+
+/* Styles for smaller screens (mobile devices) */
+@media screen and (max-width: 600px) {
+    .iphone img {
+        width: 80px; /* Reduce the width of the image for smaller screens */
+        height: 80px; /* Reduce the height of the image for smaller screens */
+    }
+}
