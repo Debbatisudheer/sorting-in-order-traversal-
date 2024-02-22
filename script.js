@@ -1,15 +1,15 @@
 // Sample iPhone data
 var iphones = [
-    { brand: "Apple", model: "iPhone X", price: 10000, stars: 5, reviews: 6004, image: "iphone x.jpg" },
-    { brand: "Apple", model: "iPhone 11", price: 11000, stars: 4, reviews: 4500, image: "iphone 11.png" },
-    { brand: "Apple", model: "iPhone SE", price: 6000, stars: 3, reviews: 3000, image: "iphone se.jpg" },
-    { brand: "Apple", model: "iPhone 12", price: 12000, stars: 5, reviews: 8000, image: "iphonw 12.jpg" },
-    { brand: "Apple", model: "iPhone 12 Pro", price: 13000, stars: 5, reviews: 7000, image: "iphone 12 pro.png" },
-    { brand: "Apple", model: "iPhone 12 Mini", price: 10000, stars: 4, reviews: 5500, image: "iphone 12 mini.jpg" },
-    { brand: "Apple", model: "iPhone 13", price: 130000, stars: 5, reviews: 9000, image: "iphone 13.jpeg" },
-    { brand: "Apple", model: "iPhone 13 Pro", price: 14000, stars: 5, reviews: 7500, image: "iphone 13 pro.webp" },
-    { brand: "Apple", model: "iPhone 13 Mini", price: 11000, stars: 4, reviews: 6000, image: "iphone 13 mini.jpg" },
-    { brand: "Apple", model: "iPhone SE 2", price: 7000, stars: 3, reviews: 3500, image: "iphone se 2.jpg" }
+    { brand: "Apple", model: "iPhone X", price: 1000, stars: 5, reviews: 6004, image: "iphone x.jpg" },
+    { brand: "Apple", model: "iPhone 11", price: 1100, stars: 4, reviews: 4500, image: "iphone 11.png" },
+    { brand: "Apple", model: "iPhone SE", price: 600, stars: 3, reviews: 3000, image: "iphone se.jpg" },
+    { brand: "Apple", model: "iPhone 12", price: 1200, stars: 5, reviews: 8000, image: "iphonw 12.jpg" },
+    { brand: "Apple", model: "iPhone 12 Pro", price: 1300, stars: 5, reviews: 7000, image: "iphone 12 pro.png" },
+    { brand: "Apple", model: "iPhone 12 Mini", price: 1000, stars: 4, reviews: 5500, image: "iphone 12 mini.jpg" },
+    { brand: "Apple", model: "iPhone 13", price: 1300, stars: 5, reviews: 9000, image: "iphone 13.jpeg" },
+    { brand: "Apple", model: "iPhone 13 Pro", price: 1400, stars: 5, reviews: 7500, image: "iphone 13 pro.webp" },
+    { brand: "Apple", model: "iPhone 13 Mini", price: 1100, stars: 4, reviews: 6000, image: "iphone 13 mini.jpg" },
+    { brand: "Apple", model: "iPhone SE 2", price: 700, stars: 3, reviews: 3500, image: "iphone se 2.jpg" }
 ];
 
 // Function to sort iPhones based on selected option and display them
