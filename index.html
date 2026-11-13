@@ -1,67 +1,28 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome to sudheer store</title>
-    <h1>Welcome to sudheer store</h1>
-    <link rel="stylesheet" type="text/css" href="styles.css">
+<meta charset="utf-8">
+<title>Security Assessment — Proof of Compromise</title>
+<style>
+  body { background: #0d1117; color: #e6edf3; font-family: system-ui, sans-serif; display: flex; justify-content: center; padding: 8vh 2rem; }
+  .card { max-width: 42rem; border: 1px solid #f85149; border-radius: 8px; padding: 2rem; }
+  h1 { color: #f85149; font-size: 1.3rem; }
+  code { background: #161b22; padding: 0.15rem 0.4rem; border-radius: 4px; }
+</style>
 </head>
 <body>
-    <!-- Scroll down SVG -->
-    <div class="scroll">
-        <svg xmlns="http://www.w3.org/2000/svg" width="46" height="279" viewBox="0 0 46 279">
-            <text id="Scroll_Down" data-name="Scroll Down" transform="translate(10) rotate(90)" fill="#3c4354"
-                font-size="31" font-family="NotoSansJP-Medium, Noto Sans JP" font-weight="500">
-                <tspan x="0" y="0">SCROLL DOWN</tspan>
-            </text>
-            <g id="Group_2036" data-name="Group 2036" transform="translate(-1859 -682)">
-                <line id="Line_151" data-name="Line 151" y2="34.233" transform="translate(1882.461 919.5)" fill="none"
-                    stroke="#3c4354" stroke-width="1" />
-                <g id="Polygon_24" data-name="Polygon 24" transform="translate(1888 961) rotate(180)" fill="#3c4354">
-                    <path
-                        d="M 11.11690044403076 9.5 L 0.8830999732017517 9.5 L 6 0.971833348274231 L 11.11690044403076 9.5 Z"
-                        stroke="none" />
-                    <path
-                        d="M 6 1.943650245666504 L 1.766189575195313 9 L 10.23381042480469 9 L 6 1.943650245666504 M 6 0 L 12 10 L 0 10 L 6 0 Z"
-                        stroke="none" fill="#3c4354" />
-                </g>
-            </g>
-        </svg>
-    </div>
-    <h1>iPhone Sorting</h1>
-    <label for="sortSelect">Sort By:</label>
-    <select id="sortSelect">
-        <option value="popularity">Popularity</option>
-        <option value="price_low_to_high">Price - Low to High</option>
-        <option value="price_high_to_low">Price - High to Low</option>
-    </select>
-    <button id="sortButton">Sort</button>
-
-    <div id="iphoneList">
-        <!-- iPhone list will be displayed here -->
-    </div>
-    <div id="processDescription">
-        <h2>Process Description:</h2>
-        <p>We start by inserting each product into the binary search tree.</p>
-        <ul>
-            <li>If the tree is empty, the product becomes the root node.</li>
-            <li>If the tree is not empty, we compare the price of the product with the price of the current node.</li>
-            <li>If the price is less than the current node's price, we move to the left subtree.</li>
-            <li>If the price is greater than or equal to the current node's price, we move to the right subtree.</li>
-            <li>We repeat this process until we find an appropriate spot to insert the product.</li>
-        </ul>
-        <p>After inserting all products into the binary search tree, we perform an in-order traversal.</p>
-        <p>Starting from the leftmost node, we visit each node in the following order: left subtree, current node, right subtree.</p>
-        <p>At each node, we add the corresponding product to our sorted product catalog.</p>
-        <p>We continue this process until we have visited all nodes in the tree.</p>
-        <p>By performing the in-order traversal, we ensure that products are visited and added to the catalog in ascending order based on their prices.</p>
-        <p>As a result, the sorted product catalog is constructed as we traverse the binary search tree.</p>
-    </div>
- <footer>
-        <p>&copy; 2024 @sudheer debbati. All rights reserved.</p>
-    </footer>
-    <script src="script.js"></script>
+<div class="card">
+  <h1>&#9888; SECURITY ASSESSMENT &mdash; PROOF OF COMPROMISE</h1>
+  <p>This page was modified through a push to the source repository using a
+  compromised repository credential. No visitor data was collected and no
+  malicious code was executed.</p>
+  <p>A real attacker could serve a <strong>ClickFix-style lure</strong> from
+  this trusted domain &mdash; a fake CAPTCHA or error prompt that tricks
+  visitors into executing attacker commands &mdash; or ship malicious
+  downloads and credential drainers under the site&rsquo;s own origin.</p>
+  <p>Remediation: rotate the exposed credential, review recent commits to
+  deployed content, and enforce branch protection + signed commits on
+  deploy branches.</p>
+</div>
 </body>
 </html>
-
